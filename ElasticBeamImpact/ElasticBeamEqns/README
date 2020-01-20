@@ -1,0 +1,14 @@
+Program solving nonlinear hyperelastic solid dynamics in 3D with Stoermer-Verlet scheme.
+
+Input parameters are in "lib/parameters.py" in "parameters" dictionary.
+
+USAGE
+
+python main.py
+Runs the simulation, provided Firedrake is installed and properly set up.
+
+python plot_energy.py
+Plots the energy of the computed solution.
+
+python compute_stable_dt.py
+Computes stable time step (approximately).
