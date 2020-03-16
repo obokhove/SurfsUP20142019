@@ -7,9 +7,9 @@ Instuctions for running Firedrake and access to "Anna's" desktop with multiple c
 Remote accesson Anna's desktop
 
 Run Firedrake after installation.
->> source firedrake/bin/activate
->> firedrake/bin/activate [means a directory where the activate file of your firedrake is] 
->> python main.py 
+** source firedrake/bin/activate
+** firedrake/bin/activate [means a directory where the activate file of your firedrake is] 
+** python main.py 
 
 
 
