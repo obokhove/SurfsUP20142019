@@ -17,7 +17,7 @@ Make a tunnel (? not tested) in one terminal:
 ```
 Then in another terminal:
 ```
->>>
+>>> sftp -P 8888 obokhove@localhost
 ```
 
 ## Run Firedrake after installation:
