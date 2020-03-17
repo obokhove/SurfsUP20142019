@@ -6,6 +6,7 @@
 
 ## Remote access to Anna's desktop
 ```
+>>> ssh amtob@remote-access.leeds.ac.uk
 >>> ssh -X username@mat-lin4123
 >>> firedrake
 >>> python
