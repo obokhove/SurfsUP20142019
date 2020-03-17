@@ -6,10 +6,14 @@
 
 ## Remote access to Anna's desktop
 ```
->>> ssh amtob@remote-access.leeds.ac.uk
+>>> ssh -Y amtob@remote-access.leeds.ac.uk
 >>> ssh -X username@mat-lin4123
 >>> firedrake
 >>> python
+```
+or 
+```
+>>> ssh -Y -J amtob@remote-access.leeds.ac.uk amtob@mat-lin4123
 ```
 
 Make a tunnel (? not tested) in one terminal:
