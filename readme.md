@@ -15,11 +15,11 @@ Make a tunnel (? not tested) in one terminal:
 ```
 >>> ssh -L 8888:amsta.leeds.ac.uk:22 amtob@remote-access.leeds.ac.uk
 ```
-Then in another terminal do what needs to be done, so either:
+Then in another terminal do what needs to be done, so either (does work):
 ```
 >>> sftp -P 8888 obokhove@localhost
 ```
-or
+or (does not work)
 ```
 >>> ssh -X username@mat-lin4123
 >>> firedrake
