@@ -15,7 +15,10 @@ Make a tunnel (? not tested) in one terminal:
 ```
 >>> ssh -L 8888:amsta.leeds.ac.uk:22 amtob@remote-access.leeds.ac.uk
 ```
-
+Then in another terminal:
+```
+>>>
+```
 
 ## Run Firedrake after installation:
 
