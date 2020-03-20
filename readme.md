@@ -28,10 +28,11 @@ Login as toor:
 ```
 >>> su toor
 ```
-then type (give su-password after each sudo):
+then type (give su-password after each sudo; last one gave error message but than test program worked):
 ```
 >>> sudo python3.8 -m pip install numpy
 >>> sudo python3.8 -m pip install scipy
+>>> sudo python3.8 -m pip install matlibplot
 ```
 
 
