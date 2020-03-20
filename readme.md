@@ -28,9 +28,10 @@ Login as toor:
 ```
 >>> su toor
 ```
-then type (give su-password):
+then type (give su-password after each sudo):
 ```
 >>> sudo python3.8 -m pip install numpy
+>>> sudo python3.8 -m pip install scipy
 ```
 
 
