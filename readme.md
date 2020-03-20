@@ -23,7 +23,14 @@ Then run Firedrake after installation:
 >>> firedrake/bin/activate [means a directory where the activate file of your firedrake is] 
 >>> python main.py 
 ```
-
-
+Notes for old 2011 iMac with OS High Sierra 10.13.6
+Login as toor:
+```
+>>> su toor
+```
+then type (give su-password):
+```
+>>> sudo python3.8 -m pip install numpy
+```
 
 
