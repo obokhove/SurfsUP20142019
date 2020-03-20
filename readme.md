@@ -2,7 +2,7 @@
 
 
 
-# Instuctions for running Firedrake and access to "Anna's" desktop with multiple cores
+# Instructions for running Firedrake and access to "Anna's" desktop with multiple cores
 
 ## Remote access to Anna's desktop
 
@@ -28,7 +28,7 @@ Login as toor:
 ```
 >>> su toor
 ```
-then type (give su-password after each sudo; last one gave error message but than test program worked):
+then type (give su-password after each sudo; last one gave error message but subsequently test program worked):
 ```
 >>> sudo python3.8 -m pip install numpy
 >>> sudo python3.8 -m pip install scipy
