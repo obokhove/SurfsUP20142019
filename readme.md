@@ -36,8 +36,14 @@ and sftp from there (from right dirctory) as follows:
 >>> sftp amtob@mat-lin4123
 ```
 
+Following DOES not WORK (08-04-2020):
+```
+>>> cp ~/vuurdraak/junho/* /scratch/tmp1/obokhove
+>>> firedrake
+>>> python KP_sol.py
+```
 ## Remote access to imac desktop
-Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible, i.e. may need to try a few times while waiting for imac to wake up):
+Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible, i.e. may need to try a few times while waiting for imac to wake up) DOES NOT WORK (08-04-2020):
 ```
 >>> ssh -Y -J amtob@remote-access.leeds.ac.uk amtob@mat-mac4175
 ```
