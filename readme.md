@@ -36,13 +36,14 @@ and sftp from there (from right dirctory) as follows:
 >>> sftp amtob@mat-lin4123
 ```
 
+## Remote access to imac desktop
 Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible, i.e. may need to try a few times while waiting for imac to wake up):
 ```
 >>> ssh -Y -J amtob@remote-access.leeds.ac.uk amtob@mat-mac4175
 ```
 
-
-II. Notes for old 2011 iMac with OS High Sierra 10.13.6
+## Updating old 2011 imac
+Notes for old 2011 iMac with OS High Sierra 10.13.6
 Login as toor:
 ```
 >>> su toor
