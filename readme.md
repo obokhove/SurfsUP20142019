@@ -2,7 +2,7 @@
 
 
 
-# Instructions for running Firedrake and access to "Anna's" desktop with multiple cores
+# Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
 ## Remote access to Anna's desktop
 
