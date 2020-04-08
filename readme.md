@@ -24,14 +24,22 @@ Then run Firedrake after installation:
 >>> python main.py 
 ```
 Currently using cumbersome two-step sftp to access mat-lin4123:
-sftp amtob@remote-access.leeds.ac.uk
+```
+>>> sftp amtob@remote-access.leeds.ac.uk
+```
 and put files in appropriate direction; then login 
-ssh -Y -J amtob@remote-access.leeds.ac.uk
+```
+>>> ssh -Y -J amtob@remote-access.leeds.ac.uk
+```
 and sftp from there (from right dirctory) as follows:
-sftp amtob@mat-lin4123
+```
+>>> sftp amtob@mat-lin4123
+```
 
-Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible):
-ssh -Y -J amtob@remote-access.leeds.ac.uk amtob@mat-mac4175
+Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible, i.e. may need to try a few times while waiting for imac to wake up):
+```
+>>> ssh -Y -J amtob@remote-access.leeds.ac.uk amtob@mat-mac4175
+```
 
 
 II. Notes for old 2011 iMac with OS High Sierra 10.13.6
