@@ -35,13 +35,6 @@ and sftp from there (from right dirctory) as follows:
 ```
 >>> sftp amtob@mat-lin4123
 ```
-
-Following DOES WORK (08-04-2020):
-```
->>> cp ~/vuurdraak/junho/* /scratch/tmp1/obokhove
->>> firedrake
->>> python KP_sol.py
-```
 or
 ```
 >>> scp host_b:/scratch/tmp1/obokhove/data/BLf/* /Users/bokhoveo/dropbox/Variationalwaterwavemodels/NumericaltankJune2018/BL
@@ -61,6 +54,18 @@ Host host_b
   Port 22
   ProxyCommand ssh -q -W %h:%p host_a
 
+## Firedrake
+
+Following DOES WORK (08-04-2020):
+```
+>>> cp ~/vuurdraak/junho/* /scratch/tmp1/obokhove
+>>> firedrake
+>>> python KP_sol.py
+```
+MPI (see also Firedrake page; add "from firedrake.petsc import PETSc" in top code and adjust "print"--commands):
+```
+>>>mpiexec -n 10 python 3D_tank.py
+```
 
 ## Remote access to imac desktop
 Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible, i.e. may need to try a few times while waiting for imac to wake up) DOES NOT WORK (08-04-2020):
