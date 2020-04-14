@@ -56,7 +56,7 @@ Host host_b
 
 ## Firedrake
 
-Following DOES WORK (08-04-2020):
+Following does work:
 ```
 >>> cp ~/vuurdraak/junho/* /scratch/tmp1/obokhove
 >>> firedrake
