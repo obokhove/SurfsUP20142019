@@ -62,7 +62,7 @@ Following does work:
 >>> firedrake
 >>> python KP_sol.py
 ```
-MPI (see also Firedrake page; add "from firedrake.petsc import PETSc" in top code and adjust "print"--commands):
+MPI (see also Firedrake page; add "from firedrake.petsc import PETSc" in top code and adjust "print"--commands); works for up to 16 cores, fails for 20 cores, likely best for 14 cores since 14 cores per socket?:
 ```
 >>>mpiexec -n 10 python 3D_tank.py
 ```
