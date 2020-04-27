@@ -9,5 +9,7 @@ Update exact KP-solution:
 - less output; smaller domain; added Petsc include to find maximum value; printed in file.
 - Paraview of 3D exact solution: Open, alphabetical -> warp by scalar; view colorbar editor; then top-right icons placing of bar etc; range of colorbar: to right of colorbar range: 2nd box on right from top; go in help and type axes (Alphabetical -> Axes) then find adjustments.
 
+Under firedrake and firedrake-new updated bennylukefv.py works fine (27-04-2020 output generated).
+
 
 
