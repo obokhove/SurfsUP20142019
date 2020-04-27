@@ -233,7 +233,6 @@ while t < T:
           print(t, abs((E-E0)/E0))
           print("%.11f %.11f" % (t, abs((E-E0)/E0)),file=outputE)
           tmE= tmE+dte
-
           
 outputE.close()
 # Below is a plot of Figure 3 in Bokhove and Kalogirou 2016:
