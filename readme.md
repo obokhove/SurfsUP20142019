@@ -6,7 +6,7 @@
 
 ## Remote access to Anna's desktop
 
-Replace amtob by your username:
+Replace amtob by your username (may need to run PATH="/usr/bin:/bin:/usr/sbin:/sbin"):
 ```
 >>> ssh -Y amtob@remote-access.leeds.ac.uk
 >>> ssh -X amtob@mat-lin4123
