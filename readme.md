@@ -56,7 +56,7 @@ Host host_b
 
 ## Firedrake
 
-Following does work:
+Following does work (newest version is firedrake-new):
 ```
 >>> cp ~/vuurdraak/junho/* /scratch/tmp1/obokhove
 >>> firedrake
