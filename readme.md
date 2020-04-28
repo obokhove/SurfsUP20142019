@@ -6,7 +6,7 @@
 
 ## Remote access to Anna's desktop
 
-Replace amtob by your username (may need to run PATH="/usr/bin:/bin:/usr/sbin:/sbin"):
+Replace amtob by your username:
 ```
 >>> ssh -Y amtob@remote-access.leeds.ac.uk
 >>> ssh -X amtob@mat-lin4123
@@ -75,6 +75,13 @@ Same for imac at office (note that it is in sleep-mode so it needs some time to 
 
 ## Updating old 2011 imac
 Notes for old 2011 iMac with OS High Sierra 10.13.6
+
+Fix 28-04: terminal gave command not known remar; fixed per terminal by running:
+```
+>>> PATH="/usr/bin:/bin:/usr/sbin:/sbin"
+```
+but that must then be done per terminal; fixed then by adding export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin" to .profile file; therefater when opening a terminal matters seemed restored.
+
 Login as toor:
 ```
 >>> su toor
