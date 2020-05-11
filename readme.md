@@ -155,3 +155,15 @@ kill -9 PID1 PID2 ...
 
 I can confirm that all of these commands work for me. Let me know if something doesn’t work for you and we should be able to figure it out!
 
+
+## SSH key on github
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "amtob@leeds.ac.uk"
+
+vi id_rsa.pub
+copy into GitHub; see: https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account
+
+When it works, e.g use (copy location from top-right in directory one wishes to clone in GitHub):
+git clone https://github.com/colinjcotter/obcc_waves.git
+
+
