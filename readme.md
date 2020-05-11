@@ -163,7 +163,7 @@ ssh-keygen -t rsa -b 4096 -C "amtob@leeds.ac.uk"
 vi id_rsa.pub
 copy into GitHub; see: https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account
 
-When it works, e.g use (copy location from top-right in directory one wishes to clone in GitHub):
-git clone https://github.com/colinjcotter/obcc_waves.git
+When it works, e.g use/copy location from top-right in directory one wishes to clone in GitHub, say:
+git clone git@github.com:colinjcotter/obcc_waves.git
 
 
