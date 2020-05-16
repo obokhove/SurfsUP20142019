@@ -3,7 +3,7 @@ Update Benney-Luke demonstration for Firedrake website:
 - reproduces Figure 3 in Bokhove and Kalogirou 2016
 - limited output to times shown in Figure
 - output of energy in energy.txt; made Python program to plot these data and reproduce lower panel of Figure 3.
-- Paraview: Open, apply choose eta and eta exact; then under Data Analysis -> Plot over line; choose cross-section along mid channel; to do: lines for different times in Plot over line.
+- Paraview: Open, apply choose eta and eta exact; then under Filter -> Data Analysis -> Plot over line; choose cross-section along mid channel; to do: lines for different times in Plot over line.
 
 Update exact KP-solution:
 - less output; smaller domain; added Petsc include to find maximum value; printed in file.
