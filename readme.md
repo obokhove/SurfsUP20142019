@@ -166,4 +166,13 @@ copy into GitHub; see: https://help.github.com/en/enterprise/2.15/user/articles/
 When it works, e.g use/copy location from top-right in directory one wishes to clone in GitHub, say:
 git clone git@github.com:colinjcotter/obcc_waves.git
 
+## To webpage places
+Tunnel in one window:
+```
+>>> ssh -L 8888:amsta.leeds.ac.uk:22 amtob@remote-access.leeds.ac.uk
+```
 
+and then set up sftp n another window:
+```
+>>> sftp -P 8888 obokhove@localhost
+```
