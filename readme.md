@@ -68,7 +68,7 @@ MPI (see also Firedrake page; add "from firedrake.petsc import PETSc" in top cod
 ```
 
 ## Remote access to imac desktop
-Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible, i.e. may need to try a few times while waiting for imac to wake up) DOES NOT WORK (08-04-2020):
+Same for imac at office (note that it is in sleep-mode so it needs some time to wake up before a login is possible, i.e. may need to try a few times while waiting for imac to wake up) (does not work 08-04-2020; works after a reboot 17-06-2020):
 ```
 >>> ssh -Y -J amtob@remote-access.leeds.ac.uk amtob@mat-mac4175
 ```
