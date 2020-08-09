@@ -88,9 +88,10 @@ Login as toor:
 ```
 then type (give su-password after each sudo; subsequently test program worked):
 ```
+>>> sudo python3.8 -m pip install --upgrade certificates
 >>> sudo python3.8 -m pip install numpy
 >>> sudo python3.8 -m pip install scipy
->>> sudo python3.8 -m pip install matlibplot
+>>> sudo python3.8 -m pip install matplotlib
 >>> sudo -H python3.8 -m pip install --upgrade matplotlib
 >>> sudo python3.8 -m pip install lmfit
 ```
