@@ -94,6 +94,7 @@ then type (give su-password after each sudo; subsequently test program worked):
 >>> sudo python3.8 -m pip install matplotlib
 >>> sudo -H python3.8 -m pip install --upgrade matplotlib
 >>> sudo python3.8 -m pip install lmfit
+>>> sudo python3.8 -m pip install pandas
 ```
 
 ## Old notes Anna's machine
