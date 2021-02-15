@@ -11,5 +11,7 @@ Update exact KP-solution:
 
 Under firedrake and firedrake-new updated bennylukefb.py and 9A_analytical.py work fine (27-04-2020 output generated).
 
+Onno: works 15-02-2021 on MacBook.
+
 
 
