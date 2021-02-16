@@ -178,3 +178,16 @@ and then set up sftp n another window:
 ```
 >>> sftp -P 8888 obokhove@localhost
 ```
+
+
+On Homebrew:
+When asked:  sudo chown -R $(whoami)
+replace by  sudo chown -R localusername e.g.  sudo chown -R onnobokhove (per instructions after brew doctor).
+Also use echo 'export PATH="/usr/local/opt/python@3.8/bin:$PATH"' >> ~/.zshrc ???
+
+
+
+
+
+
+
