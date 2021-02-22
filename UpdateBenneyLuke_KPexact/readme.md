@@ -1,5 +1,5 @@
 
-Update Benney-Luke demonstration for Firedrake website:
+Update Benney-Luke demonstration for Firedrake website (Onno: works 15-02-2021 on MacBook):
 - bennylukefb.py reproduces Figure 3 in Bokhove and Kalogirou 2016
 - limited output to times shown in Figure
 - output of energy in energy.txt; made Python program to plot these data and reproduce lower panel of Figure 3.
@@ -11,7 +11,7 @@ Update exact KP-solution 9A_analytical.py (does not work anymore 22-02-2021; fix
 
 Under firedrake and firedrake-new updated bennylukefb.py and 9A_analytical.py work fine (27-04-2020 output generated).
 
-Onno: works 15-02-2021 on MacBook.
+
 
 
 
