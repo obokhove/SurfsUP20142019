@@ -1,4 +1,4 @@
-Update 28-02-2021; program works again.
+Update 28-02-2021; program made by Tomasz Salwa in 2018 for a 3D nonlinear hyperelastic beam works again.
 
 Todo:
 - make small-amplitude test case with exact solution in small-amplitude limit;
