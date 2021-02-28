@@ -1,0 +1,22 @@
+python main.py
+
+Traceback (most recent call last):
+  File "main.py", line 14, in <module>
+    fn.time_evolution()
+  File "/Users/onnobokhove/amtob/werk/vuurdraak2021/elasbeam/lib/functions.py", line 43, in time_evolution
+    B = beam.Beam(**params)
+  File "/Users/onnobokhove/amtob/werk/vuurdraak2021/elasbeam/lib/beam.py", line 31, in __init__
+    self.initialize()
+  File "/Users/onnobokhove/amtob/werk/vuurdraak2021/elasbeam/lib/beam.py", line 39, in initialize
+    self.initial_conditions()
+  File "/Users/onnobokhove/amtob/werk/vuurdraak2021/elasbeam/lib/beam.py", line 65, in initial_conditions
+    ic1 = fd.project( [0.,0.,0.], self.V )
+  File "/Users/onnobokhove/amtob/werk/firedrake/src/firedrake/firedrake/adjoint/projection.py", line 29, in wrapper
+    output = project(*args, **kwargs)
+  File "/Users/onnobokhove/amtob/werk/firedrake/src/firedrake/firedrake/projection.py", line 91, in project
+    val = Projector(v, V, bcs=bcs, solver_parameters=solver_parameters,
+  File "/Users/onnobokhove/amtob/werk/firedrake/src/firedrake/firedrake/projection.py", line 233, in Projector
+    source = sanitise_input(v, target.function_space())
+  File "/Users/onnobokhove/amtob/werk/firedrake/src/firedrake/firedrake/projection.py", line 42, in sanitise_input
+    raise ValueError("Can't project from source object %r" % v)
+ValueError: Can't project from source object [0.0, 0.0, 0.0]
