@@ -1,4 +1,4 @@
-Update 28-02-2021
+Update 28-02-2021; program works again.
 
 Todo:
 - make small-amplitude test case with exact solution in small-amplitude limit;
