@@ -96,6 +96,12 @@ then type (give su-password after each sudo; subsequently test program worked):
 >>> sudo python3.8 -m pip install lmfit
 >>> sudo python3.8 -m pip install pandas
 ```
+31-03-2021 from user terminal and also within Firedrake:
+```
+>>> pip3 install numpy 
+```
+and for the other packages as in the above.
+
 
 ## Old notes Anna's machine
 Dear all,
