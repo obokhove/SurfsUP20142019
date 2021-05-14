@@ -1,8 +1,8 @@
 
 Update Benney-Luke demonstration for Firedrake website (Onno: works 15-02-2021 on MacBook):
-- bennylukefb.py reproduces Figure 3 in Bokhove and Kalogirou 2016 [To do: add that figure as well]
+- bennylukefb.py reproduces Figure 3 in Bokhove and Kalogirou 2016 [To do: add that Figure 3 as well for comparison]
 - limited output to times shown in Figure
-- output of energy in energy.txt; made Python program energyplotBL.py to plot these data and reproduce lower panel of Figure 3. [To do: add that output figure as well for comparison]
+- output of energy in energy.txt; made Python program energyplotBL.py to plot these data and reproduce lower panel of Figure 3. [To do: add that new output figure on energy as well for comparison]
 - Paraview: Open, apply choose eta and eta exact; then under Filter -> Data Analysis -> Plot over line; choose cross-section along mid channel (tick use normal and XY plane before overlaying a line); to do: lines for different times in Plot over line? To do: put in correct "exact solution" for reflection?
 
 Update exact KP-solution 9A_analytical.py (does not work anymore 22-02-2021; fix in progress):
