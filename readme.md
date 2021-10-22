@@ -72,6 +72,13 @@ Same for imac at office (note that it is in sleep-mode so it needs some time to 
 ```
 >>> ssh -Y -J amtob@remote-access.leeds.ac.uk amtob@mat-mac4175
 ```
+22-10-2021 replaced by, in one window:
+ssh -L 8888:mat-mac4175.leeds.ac.uk:22 amtob@remote-access.leeds.ac.uk
+then in another window:
+ssh -p 8888 amtob@localhost
+
+
+
 
 ## Updating old 2011 imac
 Notes for old 2011 iMac with OS High Sierra 10.13.6
@@ -184,6 +191,11 @@ and then set up sftp n another window:
 ```
 >>> sftp -P 8888 obokhove@localhost
 ```
+22-10-2021:
+You can setup the tunnel using:
+ssh -L 8889:leo.leeds.ac.uk:22 amtob@remote-access.leeds.ac.uk
+and then you would connect to leo using your usual password (same pwd!):
+sftp -P 8889 amtob@localhost
 
 
 On Homebrew:
