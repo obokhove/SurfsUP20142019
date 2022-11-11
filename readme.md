@@ -1,8 +1,23 @@
-
-
-
-
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
+
+## 11-11-2022
+Trying to install Firedrake using commands for FD-page:
+curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
+then
+python3 firedrake-install
+Failed on petsc package??? but error message unclear.
+
+Then did:
+brew install python3
+3x; notices python3 -V yields Python 3.10.8 but then my own non-FD Python code failed packages so typed:
+>>> python3 -m pip install matplotlib
+>>> python3 -m pip install --upgrade matplotlib
+>>> python3 -m pip install lmfit
+>>> python3 -m pip install pandas
+Then my (tax-code) example worked again.
+Removed firedrake with rm -rf firedrake
+Then again
+python3 firedrake-install
 
 ## Remote access to Anna's desktop
 
