@@ -20,7 +20,7 @@ Then again
 python3 firedrake-install
 
 16-11 Multiple delete firedrake, and re-installs, now by completing commenting out .zprofile and .zshrc files per instruction to move out the paths.
-
+Still faild at pytest but install succeeded. Now touched .zchrc and .zprofile (getting a bit tiring).
 
 
 ## Remote access to Anna's desktop
