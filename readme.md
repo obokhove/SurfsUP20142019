@@ -64,7 +64,11 @@ but was not installed; then ran:
 python3 pip install vtk
 and was advised to run
      python3.10 -m pip install --upgrade pip
-    so did that.
+    so did that. Then start again installing FD (from werk -directory):
+rm -rf firedrake
+curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
+python3 firedrake-install
+-waiting.
  
 
 
