@@ -58,6 +58,13 @@ GitHub-Firedrake; told to do: pip uninstall vtk and then pip install vtk.
     
     python3 -V
     
+    Ran
+python3 -m pip uninstall vtk
+but was not installed; then ran:
+python3 pip install vtk
+and was advised to run
+     python3.10 -m pip install --upgrade pip
+    so did that.
  
 
 
