@@ -34,6 +34,21 @@ onnobokhove@Os-MacBook-Pro firedrake % pytest tests/regression/ -k "poisson_stro
 zsh: command not found: pytest
 (Getting tired of it.)
 
+Tried and failed:
+onnobokhove@Os-MacBook-Pro werk % . /Users/onnobokhove/amtob/werk/firedrake/bin/activate
+(firedrake) onnobokhove@Os-MacBook-Pro werk % cd $VIRTUAL_ENV/src/firedrake
+pytest tests/regression/ -k "poisson_strong or stokes_mini or dg_advection"
+ImportError while loading conftest '/Users/onnobokhove/amtob/werk/firedrake/src/firedrake/tests/conftest.py'.
+tests/conftest.py:9: in <module>
+    from firedrake.utils import complex_mode
+firedrake/__init__.py:80: in <module>
+    from firedrake.output import *
+firedrake/output.py:13: in <module>
+    from .paraview_reordering import vtk_lagrange_tet_reorder,\
+firedrake/paraview_reordering.py:5: in <module>
+    from vtkmodules.vtkCommonDataModel import (
+E   ModuleNotFoundError: No module named 'vtkmodules.vtkCommonDataModel'
+ 
 
 
 ## Remote access to Anna's desktop
