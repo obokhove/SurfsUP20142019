@@ -19,6 +19,11 @@ Removed firedrake with rm -rf firedrake
 Then again
 python3 firedrake-install
 
+Also again added:
+python3 -m pip install matplotlib 
+python3 -m pip install pandas 
+python3 -m pip install lmfit
+
 16-11 Multiple delete firedrake, and re-installs, now by completing commenting out .zprofile and .zshrc files per instruction to move out the paths.
 Still faild at pytest but install succeeded. Now touched .zchrc and .zprofile (getting a bit tiring).
 
