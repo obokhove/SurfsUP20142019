@@ -37,7 +37,6 @@ then
 or
 onnobokhove@Os-MacBook-Pro firedrake % pytest tests/regression/ -k "poisson_strong or stokes_mini or dg_advection"  
 zsh: command not found: pytest
-(Getting tired of it.)
 
 Tried and failed:
 onnobokhove@Os-MacBook-Pro werk % . /Users/onnobokhove/amtob/werk/firedrake/bin/activate
@@ -70,6 +69,11 @@ curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scri
 python3 firedrake-install
 -waiting.
     Still failed the test; now did python3.10 -m pip uninstall vtk and then python3.10 pip install vtk uninstalled firedrake; started again.
+Have to activate Firedrake and uninstall and install vtk within activated Firedrake, so:
+. /Users/onnobokhove/amtob/werk/firedrake/src/firedrake/firedrake/bin/activate
+then
+python3.10 -m pip uninstall vtk 
+python3.10 -m pip install vtk  
 
  
 
