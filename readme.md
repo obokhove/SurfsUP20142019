@@ -22,6 +22,19 @@ python3 firedrake-install
 16-11 Multiple delete firedrake, and re-installs, now by completing commenting out .zprofile and .zshrc files per instruction to move out the paths.
 Still faild at pytest but install succeeded. Now touched .zchrc and .zprofile (getting a bit tiring).
 
+26-11 Contunued. Deleted and reinstalled. Firedrake seems installed but Junho's periodic program does not run. Do not understand how to run:
+cd $VIRTUAL_ENV/src/firedrake
+pytest tests/regression/ -k "poisson_strong or stokes_mini or dg_advection"
+Ran as:
+cd /Users/onnobokhove/amtob/werk/firedrake/src/firedrake  
+then
+./pytest tests/regression/ -k "poisson_strong or stokes_mini or dg_advection"
+or
+onnobokhove@Os-MacBook-Pro firedrake % pytest tests/regression/ -k "poisson_strong or stokes_mini or dg_advection"  
+zsh: command not found: pytest
+(Getting tired of it.)
+
+
 
 ## Remote access to Anna's desktop
 
