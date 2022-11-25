@@ -48,6 +48,8 @@ firedrake/output.py:13: in <module>
 firedrake/paraview_reordering.py:5: in <module>
     from vtkmodules.vtkCommonDataModel import (
 E   ModuleNotFoundError: No module named 'vtkmodules.vtkCommonDataModel'
+
+GitHub-Firedrake; told to do: pip uninstall vtk and then pip install vtk.
  
 
 
