@@ -69,6 +69,8 @@ rm -rf firedrake
 curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
 python3 firedrake-install
 -waiting.
+    Still failed the test; now did python3.10 -m pip uninstall vtk and then python3.10 pip install vtk uninstalled firedrake; started again.
+
  
 
 
