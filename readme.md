@@ -57,10 +57,14 @@ GitHub-Firedrake; told to do: pip uninstall vtk and then pip install vtk.
     
     python3 -V
     
-    Ran
+Then ran:
+    
 python3 -m pip uninstall vtk
+    
 but was not installed; then ran:
+    
 python3 pip install vtk
+
 and was advised to run
      python3.10 -m pip install --upgrade pip
     so did that. Then start again installing FD (from werk -directory):
@@ -71,10 +75,12 @@ python3 firedrake-install
     Still failed the test; now did python3.10 -m pip uninstall vtk and then python3.10 pip install vtk uninstalled firedrake; started again.
 Have to activate Firedrake and uninstall and install vtk within activated Firedrake, so:
 . /Users/onnobokhove/amtob/werk/firedrake/src/firedrake/firedrake/bin/activate
-then
+then:
+    
 python3.10 -m pip uninstall vtk 
 python3.10 -m pip install vtk  
 
+Passed test on Friday 25-11-2022; FD-programs now seem to wor.
  
 
 
