@@ -80,7 +80,13 @@ then:
 python3.10 -m pip uninstall vtk 
 python3.10 -m pip install vtk  
 
-Passed test on Friday 25-11-2022; FD-programs now seem to wor.
+Passed test on Friday 25-11-2022; FD-programs now seem to work.
+
+15-12-2022: start up FD using:
+. /Users/onnobokhove/amtob/werk/firedrake/src/firedrake/firedrake/bin/activate
+then type:
+cd $VIRTUAL_ENV/src/firedrake
+pytest tests/regression/ -k "poisson_strong or stokes_mini or dg_advection"
  
 
 
