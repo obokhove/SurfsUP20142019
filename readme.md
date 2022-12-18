@@ -1,5 +1,13 @@
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
+## GitHub stuff
+copied Eagre locally;
+git clone https://github.com/obokhove/EagreEUEID20202023.git
+
+and then added new code;
+failed to commit it back onto eagre github
+
+
 ## 11-11-2022
 Trying to install Firedrake using commands for FD-page:
 curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
