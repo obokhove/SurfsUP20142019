@@ -6,6 +6,7 @@ git clone https://github.com/obokhove/EagreEUEID20202023.git
 
 and then added new code;
 failed to commit it back onto eagre github
+failed incomprehensible BS instructions everywhere; incomplete junk.
 
 
 ## 11-11-2022
