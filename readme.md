@@ -1,6 +1,11 @@
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
 ## GitHub stuff
+
+16-04-2023: Paraview crashed. Restart, then: cd /Users/onnobokhove/amtob/werk/firedrake/src/firedrake
+and source firedrake/bin/activate
+in
+
 copied Eagre locally;
 git clone https://github.com/obokhove/EagreEUEID20202023.git
 
