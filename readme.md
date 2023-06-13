@@ -20,7 +20,13 @@ then as su:
 
 >> pip3 install --upgrad matplotlib
 
+Logged in as normal user then:
 
+>> curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
+
+>> python3 firedrake-install
+
+fails No such file or directory : 'brew'
 
 ## GitHub stuff
 
