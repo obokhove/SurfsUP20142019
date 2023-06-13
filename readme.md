@@ -1,5 +1,18 @@
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
+Installation on macbook 13-06-2023
+
+First install xcode when asked 
+login as su toor
+then type in command from homebrew site without sudo
+then as su: brew install python3
+pip3 install matplotlib
+pip3 install lmfit
+pip3 install pandas
+pip3 install --upgrad matplotlib
+
+
+
 ## GitHub stuff
 
 16-04-2023: Paraview crashed. Restart, then: cd /Users/onnobokhove/amtob/werk/firedrake/src/firedrake
