@@ -4,13 +4,20 @@
 
 First install xcode when asked 
 login as:
+
 >> su toor
+
 then type in command from homebrew site without sudo
-then as su: 
+then as su:
+
 >> brew install python3
+
 >> pip3 install matplotlib
+
 >> pip3 install lmfit
+
 >> pip3 install pandas
+
 >> pip3 install --upgrad matplotlib
 
 
