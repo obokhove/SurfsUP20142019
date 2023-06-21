@@ -18,13 +18,13 @@ then as su:
 
 >> pip3 install pandas
 
->> pip3 install --upgrad matplotlib
+>> pip3 install --upgrade matplotlib
 
 >> brew doctor
 
 >> brew cleanup
 
->> brew instal php
+>> brew install php
 
 Logged in as normal user then:
 
