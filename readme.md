@@ -20,6 +20,12 @@ then as su:
 
 >> pip3 install --upgrad matplotlib
 
+>> brew doctor
+
+>> brew cleanup
+
+>> brew instal php
+
 Logged in as normal user then:
 
 >> curl -O https://raw.githubusercontent.com/firedrakeproject/firedrake/master/scripts/firedrake-install
