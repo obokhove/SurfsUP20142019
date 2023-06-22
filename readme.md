@@ -45,6 +45,10 @@ As user, nano .zschrc in home directory of user:
 
 >> sudo chown -R amtob /opt/homebrew
 
+Works it seems:
+
+>> . /Users/amtob/firedrake/bin/activate
+
 
 ## GitHub stuff
 
