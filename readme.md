@@ -37,6 +37,14 @@ fails No such file or directory : 'brew'
 Solved via assists using chatgpt: change path in .zshrc (as user) and use sudo chown (etc) (in admin) to give brew rights to user.
 Detailed commands later:
 
+As user, nano .zschrc in home directory of user:
+
+>> tbc
+
+(As admin, amtob is user account name:)
+
+>> sudo chown -R amtob /opt/homebrew
+
 
 ## GitHub stuff
 
