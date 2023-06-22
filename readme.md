@@ -37,11 +37,11 @@ fails No such file or directory : 'brew'
 Solved via assists using chatgpt: change path in .zshrc (as user) and use sudo chown (etc) (in admin) to give brew rights to user.
 Detailed commands later:
 
-As user, nano .zschrc in home directory of user:
+As user, nano .zschrc in home directory of user; add (for me) location of homnebrew:
 
->> tbc
+>> export PATH="/opt/homebrew/bin:$PATH"
 
-(As admin, amtob is user account name:)
+then give access righst to user (as admin, "amtob" is my user account name):
 
 >> sudo chown -R amtob /opt/homebrew
 
