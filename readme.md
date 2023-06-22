@@ -34,6 +34,10 @@ Logged in as normal user then:
 
 fails No such file or directory : 'brew'
 
+Solved via assists using chatgpt: change path in .zshrc (as user) and use sudo chown (etc) (in admin) to give brew rights to user.
+Detailed commands later:
+
+
 ## GitHub stuff
 
 16-04-2023: Paraview crashed. Restart, then: cd /Users/onnobokhove/amtob/werk/firedrake/src/firedrake
