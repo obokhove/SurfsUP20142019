@@ -1,3 +1,18 @@
+Install Jupiter:
+>> mkdir jupiter
+>> python3 -m venv .venv
+>> ls -al
+>> ls -al .venv
+>> source .venv/bin/activate
+>> which python 
+>> deactivate
+>> which python3
+>> source .venv/bin/activate
+>> pip install jupyterlab
+>> pip install pandas
+>> jupyter lab
+(Opens then in browser.)
+
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
 ## Wave-energy device pages
