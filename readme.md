@@ -1,4 +1,4 @@
-Install Jupiter: 
+Install Jupiter (20-11-2023 from EP): 
 
 >> mkdir jupiter
 
