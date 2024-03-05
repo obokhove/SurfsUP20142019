@@ -79,6 +79,8 @@ then give access righst to user (as admin, "amtob" is my user account name):
 Works it seems:
 
 >> . /Users/amtob/firedrake/bin/activate
+or
+>> . /Users/onnobokhove/amtob/werk/firedrake/bin/activate
 
 
 ## GitHub stuff
