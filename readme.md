@@ -26,6 +26,9 @@ Install Jupiter (20-11-2023 from EP):
 
 (Opens then in browser.)
 
+## Installation reinstall Firedrake on new macbook 02-05-2024
+updated .zshrc; udated Xcode; update python in brew; still issue is that pkgutil is not found.
+
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
 ## Wave-energy device pages
