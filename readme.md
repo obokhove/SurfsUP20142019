@@ -28,6 +28,9 @@ Install Jupiter (20-11-2023 from EP):
 
 ## Installation reinstall Firedrake on new macbook 02-05-2024
 updated .zshrc; udated Xcode; update python in brew; still issue is that pkgutil is not found.
+Frustrating: now trying to enforece brew's Python to be used instead of the mac one (all very unclear):
+/opt/homebrew/bin/python3 firedrake-install
+
 
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
