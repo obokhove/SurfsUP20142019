@@ -31,6 +31,12 @@ updated .zshrc; udated Xcode; update python in brew; still issue is that pkgutil
 Frustrating: now trying to enforece brew's Python to be used instead of the mac one (all very unclear):
 /opt/homebrew/bin/python3 firedrake-install
 
+Hack via Jose pending repair of firedrake-install on chaco:
+comment out pkgs.add("chaco") from line 722 of the install script. Do not comment out the return pkgs statement.
+Use the --with-parmetis argument when you run the install script.
+After installation, change line 1259 of firedrake/mesh.py from partitioner_type = "chaco" to partitioner_type = "parmetis"
+
+
 
 # Instructions for running Firedrake and access to "Anna's" desktop with its 56 multiple cores and my imac:
 
